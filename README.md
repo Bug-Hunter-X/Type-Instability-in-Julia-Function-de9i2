@@ -1,0 +1,3 @@
+# Type Instability in Julia
+
+This repository demonstrates a simple example of type instability in Julia and how to address it. Type instability can significantly impact the performance of your Julia code.  The example showcases a function with varying return types based on input, causing the JIT compiler to generate less efficient code. The solution demonstrates how to improve performance by ensuring type stability.
